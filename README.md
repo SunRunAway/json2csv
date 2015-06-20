@@ -15,6 +15,8 @@ If you have a working golang install, you can use `go get`.
 go get github.com/SunRunAway/json2csv
 ```
 
+The binary build is here <https://github.com/SunRunAway/json2csv/releases>
+
 Usage
 =====
 
