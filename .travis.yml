@@ -1,5 +1,5 @@
 language: go
 sudo: false
-script: go get github.com/stretchr/testify && go get github.com/SunRunAway/json2map && go test ./...
+script: go get github.com/stretchr/testify && go get github.com/SunRunAway/json2csv && go test ./...
 notifications:
   email: false
