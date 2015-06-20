@@ -12,7 +12,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/SunRunAway/json2csv/json2map"
-	"github.com/qiniu/log.v1"
+	"github.com/qiniu/log"
 )
 
 var (
