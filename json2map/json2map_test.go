@@ -15,7 +15,7 @@ func TestMap(t *testing.T) {
 	m, err := NewWithRootKeyName("root").Convert(reader)
 	require.NoError(t, err)
 	assert.Equal(t, "1", m["root.a"].(json.Number).String())
-	assert.Equal(t, "asdf\n", m["root.b"].(string))
+	assert.Equal(t, "asdf", m["root.b"].(string))
 }
 
 func TestLargeInt(t *testing.T) {
